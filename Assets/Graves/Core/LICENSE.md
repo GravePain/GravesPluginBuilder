@@ -1,19 +1,27 @@
-# License
+# MIT License
 
-Copyright © 2026 Graves. All rights reserved.
+Copyright (c) 2026 GravePain
 
-**This is a placeholder and should be replaced before the package is shared with anyone.**
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-No licence has been chosen for this framework yet. Until one is, the default position applies:
-all rights reserved, and nobody else has permission to use, copy, modify or distribute it.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-That is deliberate rather than an oversight — publishing decisions have not been made, and
-"all rights reserved" is the only honest statement while that is true.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-## What this package does NOT contain
+## What this package does not contain
 
 No third-party content. No asset-pack material, no models, clips, textures or audio. The framework
-is native C# and depends on Unity's own modules only.
-
-Reference material used while building it was read outside this repository and never copied into
-it — see the extraction notes in the project that produced this package.
+is native C# and depends on Unity's own modules only. Reference material consulted while building it
+was read outside this repository and never copied into it.
