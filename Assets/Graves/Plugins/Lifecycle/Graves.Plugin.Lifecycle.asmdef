@@ -1,0 +1,16 @@
+{
+    "name": "Graves.Plugin.Lifecycle",
+    "rootNamespace": "Graves.Plugins.Lifecycle",
+    "references": [
+        "Graves.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9155551430155477981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779cfb1840cf33a45beac121a5b4fc47, type: 3}
+  m_Name: PlayerAttackModule
+  m_EditorClassIdentifier: Graves.Plugin.Combat.Player::Graves.Plugins.Combat.Player.PlayerAttackModule
+--- !u!114 &-7768695068886272192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e95c232ed02d14696d13d04b8a5118, type: 3}
+  m_Name: DeadCannotUseSkillsModule
+  m_EditorClassIdentifier: Graves.Plugin.Skills.Vitals::Graves.Plugins.Skills.Vitals.DeadCannotUseSkillsModule
+--- !u!114 &-7255853567298893244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5224a8d57308cf04c800fb47054fa75f, type: 3}
+  m_Name: AutoEquipModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment::Graves.Plugins.Equipment.AutoEquipModule
+--- !u!114 &-7132165819699029987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8251d6b2e185c394ba53b5271a95df4e, type: 3}
+  m_Name: VitalsModule
+  m_EditorClassIdentifier: Graves.Plugin.Vitals::Graves.Plugins.Vitals.VitalsModule
+  _maxHealth:
+    Base: 200
+    PerLevel: 20
+  _startFull: 1
+--- !u!114 &-6989934995618458142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9c93ff9293ecb4db3ff41b41dea264, type: 3}
+  m_Name: PurseModule
+  m_EditorClassIdentifier: Graves.Plugin.Currency::Graves.Plugins.Currency.PurseModule
+  _startingMoney: []
+--- !u!114 &-6466270706992338582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7efcd27dbb3d443b7dfd4c312adc9b, type: 3}
+  m_Name: FollowCameraModule
+  m_EditorClassIdentifier: Graves.Plugin.Camera::Graves.Plugins.Camera.FollowCameraModule
+  _distance: 5
+  _height: 1.6
+  _damping: 12
+  _yawSensitivity: 0.2
+  _pitchSensitivity: 0.15
+  _minPitch: -30
+  _maxPitch: 70
+--- !u!114 &-6140759867813110588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479851c853758ee498f901146c373e87, type: 3}
+  m_Name: PlayerControlModule
+  m_EditorClassIdentifier: Graves.Plugin.Locomotion.Player::Graves.Plugins.Locomotion.Player.PlayerControlModule
+--- !u!114 &-6096134221335199011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcaa9a92db4c54a4080ad7e4ad88114d, type: 3}
+  m_Name: AnimationModule
+  m_EditorClassIdentifier: Graves.Plugin.Animation::Graves.Plugins.Animation.AnimationModule
+  _clips:
+  - Name: Attack
+    Clip: {fileID: 0}
+    Speed: 1
+    BlendIn: 0.15
+    BlendOut: 0.15
+    Mask: {fileID: 31900000, guid: 06ef5daf72bf4f34a8ed56286d114af3, type: 2}
+  - Name: Heavy Blow
+    Clip: {fileID: 0}
+    Speed: 1.2
+    BlendIn: 0.12
+    BlendOut: 0.2
+    Mask: {fileID: 0}
+--- !u!114 &-5774352215841783212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd62c026bdcbd944cafcab918a768efe, type: 3}
+  m_Name: DeathModule
+  m_EditorClassIdentifier: Graves.Plugin.Death::Graves.Plugins.Death.DeathModule
+  _removeBody: 0
+  _linger: 1.5
+  _sinkSpeed: 0.8
+--- !u!114 &-3717881330884488533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ca48a77d661da46accd4c26348d965, type: 3}
+  m_Name: CombatModule
+  m_EditorClassIdentifier: Graves.Plugin.Combat::Graves.Plugins.Combat.CombatModule
+  _damage:
+    Base: 10
+    PerLevel: 3
+  _range: 2
+  _arc: 120
+  _hitEverythingInArc: 0
+  _hits:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  _cooldown: 1.1041718
+--- !u!114 &-3287543252076863650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba8842c8a6a383478239e45acbf06c4, type: 3}
+  m_Name: ProgressionModule
+  m_EditorClassIdentifier: Graves.Plugin.Progression::Graves.Plugins.Progression.ProgressionModule
+  _startingLevel: 1
+  _maxLevel: 20
+  _experienceCost:
+    Base: 100
+    PerLevel: 50
+--- !u!114 &-2245468539137139121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cad7f28eded9564aad262524ba2d454, type: 3}
+  m_Name: QuestLogModule
+  m_EditorClassIdentifier: Graves.Plugin.Quests::Graves.Plugins.Quests.QuestLogModule
+  _startingQuests:
+  - {fileID: 11400000, guid: e172d780122da3f4bbecd42212fb3ca1, type: 2}
+--- !u!114 &-2230585725957325660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf52f068c200d9458f91e326e0dd8ab, type: 3}
+  m_Name: SkillsModule
+  m_EditorClassIdentifier: Graves.Plugin.Skills::Graves.Plugins.Skills.SkillsModule
+  _startingSkills:
+  - Skill: {fileID: 11400000, guid: 45eb58e331cbc324abaa234500b06fb9, type: 2}
+    Level: 1
+--- !u!114 &-1747259071591968064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4978daa1a6c907b438a29d177c9e0a9f, type: 3}
+  m_Name: InventoryModule
+  m_EditorClassIdentifier: Graves.Plugin.Inventory::Graves.Plugins.Inventory.InventoryModule
+  _capacity: 20
+  _startingItems:
+  - Item: {fileID: 11400000, guid: 7d65481e916334d48b33ea90a8624810, type: 2}
+    Count: 1
+--- !u!114 &-1604068325470999822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8538d11bb36a38e48a4a3209d7a961b2, type: 3}
+  m_Name: AttackAnimationModule
+  m_EditorClassIdentifier: Graves.Plugin.Combat.Animation::Graves.Plugins.Combat.Animation.AttackAnimationModule
+  _clipName: Attack
+  _interruptsItself: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb6da0c7c4f82340b0b4d391d31dc94, type: 3}
+  m_Name: Locomotion Test Player
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.EntityDefinition
+  _uid: 618d756e2bd44c0dbfd5489f77708a6c
+  _displayName: 
+  _modules:
+  - {fileID: -765969281356801730, guid: 3a5f26daefd82ba46b32025eca52ccf6, type: 2}
+  - {fileID: -6140759867813110588}
+  - {fileID: -6466270706992338582}
+  - {fileID: -3717881330884488533}
+  - {fileID: -9155551430155477981}
+  - {fileID: -7132165819699029987}
+  - {fileID: 3526715286378408384}
+  - {fileID: -5774352215841783212}
+  - {fileID: -3287543252076863650}
+  - {fileID: -1747259071591968064}
+  - {fileID: 2511209931613810536}
+  - {fileID: 4695690397244744389}
+  - {fileID: -2230585725957325660}
+  - {fileID: -6096134221335199011}
+  - {fileID: -1604068325470999822}
+  - {fileID: 7586702327758365741}
+  - {fileID: -7255853567298893244}
+  - {fileID: -7768695068886272192}
+  - {fileID: 8550061085851518125}
+  - {fileID: 4971013478527622484}
+  - {fileID: 5446639959315659833}
+  - {fileID: -6989934995618458142}
+  - {fileID: -2245468539137139121}
+  - {fileID: 8622481369672857780}
+  _representation: {fileID: 4040552791150173199, guid: 402c8a4cc26295b42970e31c49067055, type: 3}
+--- !u!114 &1091977082038212815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64f97e663b3e8b478169be92f6cc678, type: 3}
+  m_Name: LocomotionModule
+  m_EditorClassIdentifier: Graves.Plugin.Locomotion::Graves.Plugins.Locomotion.LocomotionModule
+  _speed: 4
+  _turnSpeed: 720
+  _acceleration: 40
+  _jumpHeight: 1.2
+  _gravity: 25
+  _height: 1.8
+  _radius: 0.3
+  _stepOffset: 0.3
+  _slopeLimit: 45
+--- !u!114 &2511209931613810536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae5a577d86ed1442b81b984bbbaa6d5, type: 3}
+  m_Name: EquipmentModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment::Graves.Plugins.Equipment.EquipmentModule
+  _slots:
+  - {fileID: 11400000, guid: 603b2e49e9caba04dba096a340635f23, type: 2}
+--- !u!114 &3526715286378408384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45f7076134970648b86868886082445, type: 3}
+  m_Name: AiTargetModule
+  m_EditorClassIdentifier: Graves.Plugin.AI::Graves.Plugins.AI.AiTargetModule
+--- !u!114 &4695690397244744389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f15dbd36a642aad4682c4cb99271a96c, type: 3}
+  m_Name: EquipmentStatsModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment.Stats::Graves.Plugins.Equipment.Stats.EquipmentStatsModule
+--- !u!114 &4971013478527622484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa963dac2d777a4b82b6948e269d6bd, type: 3}
+  m_Name: HealthBarModule
+  m_EditorClassIdentifier: Graves.Plugin.UI.Vitals::Graves.Plugins.UI.Vitals.HealthBarModule
+  _offset: {x: 24, y: -24}
+  _size: {x: 320, y: 26}
+--- !u!114 &5446639959315659833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0fa27acd5f9c1f499f13a7596ab33cd, type: 3}
+  m_Name: RespawnModule
+  m_EditorClassIdentifier: Graves.Plugin.Death::Graves.Plugins.Death.RespawnModule
+  _delay: 3
+  _returnToStart: 1
+--- !u!114 &7586702327758365741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0662a8b92852847409741a41287aeb6d, type: 3}
+  m_Name: PlayerSkillModule
+  m_EditorClassIdentifier: Graves.Plugin.Skills.Player::Graves.Plugins.Skills.Player.PlayerSkillModule
+--- !u!114 &8550061085851518125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a704d8a54b440e64d8a93a25bc666159, type: 3}
+  m_Name: EnhancementBonusModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment.Enhancement::Graves.Plugins.Equipment.Enhancement.EnhancementBonusModule
+--- !u!114 &8622481369672857780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96b424aacd47fb4f84e472e65f321e4, type: 3}
+  m_Name: CountsKillsModule
+  m_EditorClassIdentifier: Graves.Plugin.Quests.Combat::Graves.Plugins.Quests.Combat.CountsKillsModule

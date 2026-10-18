@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b520a46caedd3249a6fa3a381f90d26, type: 3}
+  m_Name: Bundle Arrows
+  m_EditorClassIdentifier: Graves.Plugin.Crafting::Graves.Plugins.Crafting.RecipeDefinition
+  _uid: c5494f7d2be94a65b09637a4aab62c83
+  _displayName: 
+  _modules:
+  - {fileID: 2695235724909336602}
+  _ingredients:
+  - Item: {fileID: 11400000, guid: 893f20da307d4a04e837d96d15f9220b, type: 2}
+    Count: 3
+  - Item: {fileID: 11400000, guid: 4c7aba756cbebb344904bdb22160fbe4, type: 2}
+    Count: 10
+  _result: {fileID: 11400000, guid: 4b538b7271c645d40ac5fc3b3049de43, type: 2}
+  _resultCount: 1
+--- !u!114 &2695235724909336602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50740583e10cac54e9b5f85c0da46dc3, type: 3}
+  m_Name: RequiresStationModule
+  m_EditorClassIdentifier: Graves.Plugin.Crafting.Stations::Graves.Plugins.Crafting.Stations.RequiresStationModule
+  _station: {fileID: 11400000, guid: 3c802bf8eee2f7645b2bdc9f5f51f50c, type: 2}
+  _range: 4
+  _message: 

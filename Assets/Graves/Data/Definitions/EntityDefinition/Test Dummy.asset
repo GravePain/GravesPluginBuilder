@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb6da0c7c4f82340b0b4d391d31dc94, type: 3}
+  m_Name: Test Dummy
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.EntityDefinition
+  _uid: 32e6a79382314b789752f855947f5f71
+  _displayName: 
+  _modules:
+  - {fileID: 1254573054836195612}
+  _representation: {fileID: 0}
+--- !u!114 &1254573054836195612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcaa9a92db4c54a4080ad7e4ad88114d, type: 3}
+  m_Name: AnimationModule
+  m_EditorClassIdentifier: Graves.Plugin.Animation::Graves.Plugins.Animation.AnimationModule
+  _clips:
+  - Name: Hop
+    Clip: {fileID: 7400000, guid: 28052420d26d16e4a8c0e117de1ceebc, type: 2}
+    Speed: 1
+    BlendIn: 0
+    BlendOut: 0.1
+    Mask: {fileID: 0}

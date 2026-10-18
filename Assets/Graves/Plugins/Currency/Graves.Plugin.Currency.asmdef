@@ -1,0 +1,17 @@
+{
+    "name": "Graves.Plugin.Currency",
+    "rootNamespace": "Graves.Plugins.Currency",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Inventory"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

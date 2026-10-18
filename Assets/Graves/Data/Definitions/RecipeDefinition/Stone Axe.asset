@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b520a46caedd3249a6fa3a381f90d26, type: 3}
+  m_Name: Stone Axe
+  m_EditorClassIdentifier: Graves.Plugin.Crafting::Graves.Plugins.Crafting.RecipeDefinition
+  _uid: ae0a57bb44ed458f8f483f630a8205e7
+  _displayName: 
+  _modules: []
+  _ingredients:
+  - Item: {fileID: 11400000, guid: a8e246dddd349344e9735e3d35ec9898, type: 2}
+    Count: 4
+  - Item: {fileID: 11400000, guid: 01b52a3be53bca64ea4d96965fe6ce5a, type: 2}
+    Count: 2
+  _result: {fileID: 11400000, guid: 0421b6d927a4135469b7e8c728f484f2, type: 2}
+  _resultCount: 1

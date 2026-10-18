@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8033093562330523076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb51a57dea4e1144c8425df08b9abe22, type: 3}
+  m_Name: EquippableModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment::Graves.Plugins.Equipment.EquippableModule
+  _slot: {fileID: 11400000, guid: 603b2e49e9caba04dba096a340635f23, type: 2}
+  _worn: {fileID: 0}
+--- !u!114 &-7346762996852557409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb6e1ee3f89b1e3419c256241e128be5, type: 3}
+  m_Name: StatBonusModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment.Stats::Graves.Plugins.Equipment.Stats.StatBonusModule
+  _health: 25
+  _damage: 5
+  _healthPercent: 0
+--- !u!114 &-3747290213847362105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a03e988e55eca449edda53f5bf0454, type: 3}
+  m_Name: MeleeDamageModule
+  m_EditorClassIdentifier: Graves.Plugin.Skills.Combat::Graves.Plugins.Skills.Combat.MeleeDamageModule
+  _multiplier:
+    Base: 2
+    PerLevel: 0
+  _flatBonus:
+    Base: 0
+    PerLevel: 0
+--- !u!114 &-3403116849459975834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1944d04064c822940aaad204e8b01ec2, type: 3}
+  m_Name: EnhanceableModule
+  m_EditorClassIdentifier: Graves.Plugin.Enhancement::Graves.Plugins.Enhancement.EnhanceableModule
+  _maxLevel: 10
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31aa2a9b2a194354dbb926d427096404, type: 3}
+  m_Name: Rusty Sword
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.ItemDefinition
+  _uid: 536678afd26347b2ab42f96c22fefc96
+  _displayName: 
+  _modules:
+  - {fileID: -8033093562330523076}
+  - {fileID: -7346762996852557409}
+  - {fileID: -3747290213847362105}
+  - {fileID: -3403116849459975834}
+  - {fileID: 8713197686391572412}
+--- !u!114 &8713197686391572412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f5f0357e75a10479103e72bc15aa6d, type: 3}
+  m_Name: EnhancementScalingModule
+  m_EditorClassIdentifier: Graves.Plugin.Equipment.Enhancement::Graves.Plugins.Equipment.Enhancement.EnhancementScalingModule
+  _healthPerLevel: 10
+  _damagePerLevel: 3

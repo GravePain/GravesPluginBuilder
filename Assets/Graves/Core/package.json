@@ -1,0 +1,23 @@
+{
+  "name": "com.graves.core",
+  "version": "0.1.0",
+  "displayName": "Graves Core",
+  "description": "A native C# framework for defining entities and items as ScriptableObjects, authored through a single editor window, and extended by plugins. The core owns identity, structure, extension and integrity. Plugins own behaviour and presentation. Nothing here defines 2D or 3D, a controller, a movement model, or physical interaction.",
+  "unity": "6000.3",
+  "author": {
+    "name": "Graves"
+  },
+  "hideInEditor": false,
+  "samples": [
+    {
+      "displayName": "Exemplar plugins",
+      "description": "Seven plugins chosen as shapes worth copying, dependency-closed so they compile together: a plugin with no dependencies at all, data-and-behaviour, a bridge joining two plugins, a collection, and a cross-plugin with an optional half.",
+      "path": "Samples~/Plugins"
+    },
+    {
+      "displayName": "Combat Bridge (adopting an external tool)",
+      "description": "How to adopt a proven tool without rewriting it: the tool keeps its own assembly, a third assembly joins it to the framework. Does not compile until you point it at your own tool.",
+      "path": "Samples~/CombatBridge"
+    }
+  ]
+}

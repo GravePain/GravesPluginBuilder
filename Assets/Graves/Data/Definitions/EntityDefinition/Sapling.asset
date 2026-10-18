@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb6da0c7c4f82340b0b4d391d31dc94, type: 3}
+  m_Name: Sapling
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.EntityDefinition
+  _uid: f4391e3beffb4c1086cb18386e3cd19a
+  _displayName: 
+  _modules:
+  - {fileID: 1447633623524852631}
+  _representation: {fileID: 8250465134646480970, guid: 430cd682997956d4c80f4461ceeaa05a, type: 3}
+--- !u!114 &1447633623524852631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665ff09cab7346240b5c7f43595d26dd, type: 3}
+  m_Name: HarvestableModule
+  m_EditorClassIdentifier: Graves.Plugin.Gathering::Graves.Plugins.Gathering.HarvestableModule
+  _yield: {fileID: 11400000, guid: a8e246dddd349344e9735e3d35ec9898, type: 2}
+  _yieldPerHarvest: 2
+  _harvests: 3
+  _regrowSeconds: 20

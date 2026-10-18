@@ -1,0 +1,17 @@
+{
+    "name": "Graves.Plugin.Crafting.Stations",
+    "rootNamespace": "Graves.Plugins.Crafting.Stations",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Crafting"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

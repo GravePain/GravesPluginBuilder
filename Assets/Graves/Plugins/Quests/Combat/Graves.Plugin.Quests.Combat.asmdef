@@ -1,0 +1,19 @@
+{
+    "name": "Graves.Plugin.Quests.Combat",
+    "rootNamespace": "Graves.Plugins.Quests.Combat",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Quests",
+        "Graves.Plugin.Combat",
+        "Graves.Plugin.Vitals"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

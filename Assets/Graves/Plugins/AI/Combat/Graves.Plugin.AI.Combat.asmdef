@@ -1,0 +1,19 @@
+{
+    "name": "Graves.Plugin.AI.Combat",
+    "rootNamespace": "Graves.Plugins.AI.Combat",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.AI",
+        "Graves.Plugin.Combat",
+        "Graves.Plugin.Vitals"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

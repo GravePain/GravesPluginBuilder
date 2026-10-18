@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31aa2a9b2a194354dbb926d427096404, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.ItemDefinition
+  _uid: f46e2306bee041e688c4acbe47641cd2
+  _displayName: 
+  _modules:
+  - {fileID: 271592207534859370}
+--- !u!114 &271592207534859370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda075942fb4e8f4aab8321f0675e395, type: 3}
+  m_Name: StackableModule
+  m_EditorClassIdentifier: Graves.Plugin.Inventory::Graves.Plugins.Inventory.StackableModule
+  _maxStack: 99

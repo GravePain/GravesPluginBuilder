@@ -1,0 +1,20 @@
+{
+    "name": "Graves.Plugin.Equipment.Enhancement",
+    "rootNamespace": "Graves.Plugins.Equipment.Enhancement",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Equipment",
+        "Graves.Plugin.Enhancement",
+        "Graves.Plugin.Vitals",
+        "Graves.Plugin.Combat"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

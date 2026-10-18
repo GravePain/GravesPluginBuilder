@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-757204209942735445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64f97e663b3e8b478169be92f6cc678, type: 3}
+  m_Name: LocomotionModule
+  m_EditorClassIdentifier: Graves.Plugin.Locomotion::Graves.Plugins.Locomotion.LocomotionModule
+  _speed: 4
+  _turnSpeed: 720
+  _acceleration: 40
+  _jumpHeight: 1.2
+  _gravity: 25
+  _height: 1.8
+  _radius: 0.3
+  _stepOffset: 0.3
+  _slopeLimit: 45
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb6da0c7c4f82340b0b4d391d31dc94, type: 3}
+  m_Name: Training Dummy
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.EntityDefinition
+  _uid: 0cb49caf2fbc4bb9b43b471353f3d5a5
+  _displayName: 
+  _modules:
+  - {fileID: 1848394108130713927}
+  - {fileID: -757204209942735445}
+  _representation: {fileID: 0}
+--- !u!114 &1848394108130713927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8251d6b2e185c394ba53b5271a95df4e, type: 3}
+  m_Name: VitalsModule
+  m_EditorClassIdentifier: Graves.Plugin.Vitals::Graves.Plugins.Vitals.VitalsModule
+  _maxHealth:
+    Base: 100
+    PerLevel: 0
+  _startFull: 1

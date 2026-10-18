@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb6da0c7c4f82340b0b4d391d31dc94, type: 3}
+  m_Name: Stone Outcrop
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.EntityDefinition
+  _uid: ceb4e437db114733ae175f2b1fc42c5b
+  _displayName: 
+  _modules:
+  - {fileID: 6105892226622483926}
+  _representation: {fileID: 569847764810796738, guid: 69719d23fc52b9f43a40e0e651af11d5, type: 3}
+--- !u!114 &6105892226622483926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665ff09cab7346240b5c7f43595d26dd, type: 3}
+  m_Name: HarvestableModule
+  m_EditorClassIdentifier: Graves.Plugin.Gathering::Graves.Plugins.Gathering.HarvestableModule
+  _yield: {fileID: 11400000, guid: 01b52a3be53bca64ea4d96965fe6ce5a, type: 2}
+  _yieldPerHarvest: 1
+  _harvests: 3
+  _regrowSeconds: 25

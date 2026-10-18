@@ -1,0 +1,16 @@
+{
+    "name": "Graves.Plugin.Skills",
+    "rootNamespace": "Graves.Plugins.Skills",
+    "references": [
+        "Graves.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

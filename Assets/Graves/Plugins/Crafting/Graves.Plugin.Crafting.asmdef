@@ -1,0 +1,17 @@
+{
+    "name": "Graves.Plugin.Crafting",
+    "rootNamespace": "Graves.Plugins.Crafting",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Inventory"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

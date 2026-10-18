@@ -1,0 +1,19 @@
+{
+    "name": "Graves.Plugin.Equipment.Stats",
+    "rootNamespace": "Graves.Plugins.Equipment.Stats",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Equipment",
+        "Graves.Plugin.Vitals",
+        "Graves.Plugin.Combat"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

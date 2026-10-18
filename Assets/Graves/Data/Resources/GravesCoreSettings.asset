@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f11c812c60ce843af9ff2f7e7ef3d5, type: 3}
+  m_Name: GravesCoreSettings
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.CoreSettings
+  _registry: {fileID: 11400000, guid: e9cd23003b4a57a47a10745fbbd1ccca, type: 2}
+  _defaultRepresentation: {fileID: 0}

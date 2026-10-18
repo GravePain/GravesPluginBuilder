@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7148538683519712106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1310e1d378d9a045951679d178625e2, type: 3}
+  m_Name: GathererModule
+  m_EditorClassIdentifier: Graves.Plugin.Gathering::Graves.Plugins.Gathering.GathererModule
+  _reach: 2.5
+--- !u!114 &-5993809941548197973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479851c853758ee498f901146c373e87, type: 3}
+  m_Name: PlayerControlModule
+  m_EditorClassIdentifier: Graves.Plugin.Locomotion.Player::Graves.Plugins.Locomotion.Player.PlayerControlModule
+--- !u!114 &-765969281356801730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7efcd27dbb3d443b7dfd4c312adc9b, type: 3}
+  m_Name: FollowCameraModule
+  m_EditorClassIdentifier: Graves.Plugin.Camera::Graves.Plugins.Camera.FollowCameraModule
+  _distance: 5
+  _height: 1.6
+  _damping: 12
+  _yawSensitivity: 0.2
+  _pitchSensitivity: 0.15
+  _minPitch: -30
+  _maxPitch: 70
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb6da0c7c4f82340b0b4d391d31dc94, type: 3}
+  m_Name: Forager
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.EntityDefinition
+  _uid: 8c2eb4b0a1f24e429ba3654b073c67c5
+  _displayName: 
+  _modules:
+  - {fileID: 3932088539308564566}
+  - {fileID: -5993809941548197973}
+  - {fileID: -765969281356801730}
+  - {fileID: 1001134174499311269}
+  - {fileID: -7148538683519712106}
+  _representation: {fileID: 6837314784306015825, guid: 7cf845cbf911ddc4d8d27e8fc0274d88, type: 3}
+--- !u!114 &1001134174499311269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4978daa1a6c907b438a29d177c9e0a9f, type: 3}
+  m_Name: InventoryModule
+  m_EditorClassIdentifier: Graves.Plugin.Inventory::Graves.Plugins.Inventory.InventoryModule
+  _capacity: 20
+  _startingItems: []
+--- !u!114 &3932088539308564566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64f97e663b3e8b478169be92f6cc678, type: 3}
+  m_Name: LocomotionModule
+  m_EditorClassIdentifier: Graves.Plugin.Locomotion::Graves.Plugins.Locomotion.LocomotionModule
+  _speed: 4
+  _turnSpeed: 720
+  _acceleration: 40
+  _jumpHeight: 1.2
+  _gravity: 25
+  _height: 1.8
+  _radius: 0.3
+  _stepOffset: 0.3
+  _slopeLimit: 45

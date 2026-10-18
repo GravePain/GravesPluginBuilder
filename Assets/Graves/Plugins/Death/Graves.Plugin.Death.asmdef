@@ -1,0 +1,18 @@
+{
+    "name": "Graves.Plugin.Death",
+    "rootNamespace": "Graves.Plugins.Death",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Vitals",
+        "Graves.Plugin.Locomotion"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

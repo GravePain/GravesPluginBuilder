@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9b87b64d9b7cf4ea767615af11f69e, type: 3}
+  m_Name: Forge
+  m_EditorClassIdentifier: Graves.Plugin.Crafting.Stations::Graves.Plugins.Crafting.Stations.CraftingStationDefinition
+  _uid: ff17a5c3d8d04ebfad77099b1e7c5a2d
+  _displayName: 
+  _modules: []

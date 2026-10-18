@@ -1,0 +1,19 @@
+{
+    "name": "Graves.Plugin.Lifecycle.Vitals",
+    "rootNamespace": "Graves.Plugins.Lifecycle.Vitals",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Lifecycle",
+        "Graves.Plugin.Vitals",
+        "Graves.Plugin.Death"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

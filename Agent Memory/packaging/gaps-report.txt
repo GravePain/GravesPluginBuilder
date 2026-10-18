@@ -1,0 +1,12 @@
+persistent id after AddComponent from script: e1d87f3f29a04c11a37363d8b90fad67
+persistent id on the saved prefab: e1d87f3f29a04c11a37363d8b90fad67
+manual pages found in a fresh install: 0
+   root 'Docs' exists: False
+   root 'Agent Memory' exists: False
+data root the package insists on: Assets/Graves/Data (a compile-time constant inside the package)
+package resolved from: K:\Protected\GravesPluginBuilder\GravesPluginBuilder\Assets\Graves\Core
+package documentationUrl: NONE
+   ships README.md: False
+   ships CHANGELOG.md: False
+   ships LICENSE.md: False
+   ships Documentation~: False

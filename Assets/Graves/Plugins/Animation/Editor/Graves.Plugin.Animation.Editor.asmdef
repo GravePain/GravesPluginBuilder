@@ -1,0 +1,19 @@
+{
+    "name": "Graves.Plugin.Animation.Editor",
+    "rootNamespace": "Graves.Plugins.Animation.Editor",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Animation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Graves.Plugin.Locomotion",
+    "rootNamespace": "Graves.Plugins.Locomotion",
+    "references": [
+        "Graves.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

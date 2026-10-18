@@ -1,0 +1,17 @@
+{
+    "name": "Graves.Plugin.Spawning",
+    "rootNamespace": "Graves.Plugins.Spawning",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.AI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Graves.Plugin.Camera",
+    "rootNamespace": "Graves.Plugins.Camera",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Input"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Graves.Plugin.Equipment",
+    "rootNamespace": "Graves.Plugins.Equipment",
+    "references": [
+        "Graves.Core",
+        "Graves.Plugin.Inventory"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

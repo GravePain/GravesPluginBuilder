@@ -1,0 +1,16 @@
+{
+    "name": "Graves.Plugin.Quests",
+    "rootNamespace": "Graves.Plugins.Quests",
+    "references": [
+        "Graves.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

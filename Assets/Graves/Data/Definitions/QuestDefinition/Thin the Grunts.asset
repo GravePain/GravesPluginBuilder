@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d28f86c66dd1849aec2a6af5667f89, type: 3}
+  m_Name: Thin the Grunts
+  m_EditorClassIdentifier: Graves.Plugin.Quests::Graves.Plugins.Quests.QuestDefinition
+  _uid: 129bf2b605294bc597b138401303f633
+  _displayName: 
+  _modules:
+  - {fileID: 8205722035617761796}
+  _description: Ten grunts, and the coin is yours.
+  _target: {fileID: 11400000, guid: 4e47385e99f1eeb41958e848955cc2b8, type: 2}
+  _required: 10
+  _payOnCompletion: 1
+--- !u!114 &8205722035617761796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8ada80c65c40f44bb391cb0fd5c6154, type: 3}
+  m_Name: ItemRewardModule
+  m_EditorClassIdentifier: Graves.Plugin.Quests.Inventory::Graves.Plugins.Quests.Inventory.ItemRewardModule
+  _item: {fileID: 11400000, guid: 4c7aba756cbebb344904bdb22160fbe4, type: 2}
+  _count: 100
+  _container: graves.purse

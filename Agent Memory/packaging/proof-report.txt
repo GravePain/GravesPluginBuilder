@@ -1,0 +1,9 @@
+PASS  core package present   assembly=Graves.Core
+PASS  core is a package, not loose files in Assets   com.graves.core@0.1.0 source=Local
+PASS  core editor assembly present   assembly=Graves.Core.Editor
+PASS  vitals plugin bound to the packaged core   VitalsModule -> DefinitionModule across the package boundary
+PASS  settings created from nothing   Assets/Graves/Data/Resources/GravesCoreSettings.asset
+PASS  definition authored   Assets/Graves/Data/Definitions/EntityDefinition/Proof Dummy.asset
+PASS  plugin module added to a core definition   modules=1
+PASS  registry rebuilt and resolves the new definition   uid=1dd7c3f34d0545028dde2ed2369fdf8c
+PASS  entity prefab authored for the play mode half   Assets/Resources/Proof/ProofDummy.prefab

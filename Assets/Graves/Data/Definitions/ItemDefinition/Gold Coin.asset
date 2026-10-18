@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6008067251026293923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9507f83a67bf7544b61d8715e32dd88, type: 3}
+  m_Name: CurrencyModule
+  m_EditorClassIdentifier: Graves.Plugin.Currency::Graves.Plugins.Currency.CurrencyModule
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31aa2a9b2a194354dbb926d427096404, type: 3}
+  m_Name: Gold Coin
+  m_EditorClassIdentifier: Graves.Core::Graves.Core.ItemDefinition
+  _uid: 234db02250cb4fa4ba83608b4291f8aa
+  _displayName: 
+  _modules:
+  - {fileID: 8656999873461502194}
+  - {fileID: -6008067251026293923}
+--- !u!114 &8656999873461502194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda075942fb4e8f4aab8321f0675e395, type: 3}
+  m_Name: StackableModule
+  m_EditorClassIdentifier: Graves.Plugin.Inventory::Graves.Plugins.Inventory.StackableModule
+  _maxStack: 1000000000

@@ -1,0 +1,16 @@
+{
+    "name": "Graves.Plugin.Animation",
+    "rootNamespace": "Graves.Plugins.Animation",
+    "references": [
+        "Graves.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
